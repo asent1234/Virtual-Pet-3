@@ -91,6 +91,7 @@ function stock(){
 function feed (){
     food.deductF();
     food.updateLF()
+    dog.addImage(dogimg, "dogimg");
     if(hour > 12){
         period = "PM"
     }
