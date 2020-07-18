@@ -52,7 +52,7 @@ function draw(){
     text("Food Remaing: "+ food.foodStock, 50, 100);
     text("Last Fed: "+ food.lastFed, 50, 80 )
     if(gameState !=	 "Hungry"){
-        console.log("works")
+        //console.log("works")
         feedbutton.hide();
         stockbutton.hide();
         dog.remove();
@@ -61,7 +61,7 @@ function draw(){
         feedbutton.show();
         stockbutton.show();
         dog.addImage(saddogimg)
-        console.log("fail")
+        //console.log("fail")
     }
     if(hour === (food.lastFed+1)){ 
     update("Playing"); 
