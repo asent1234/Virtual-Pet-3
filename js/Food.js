@@ -2,7 +2,7 @@ class Food {
 constructor(){
 this.foodStock = null
 this.lastFed = null
-this.bottleimg = loadImage("images/Milk.png")
+this.bottleimg = loadImage("images/milk.png")
 }
 getFS(){
 var foodSref = db.ref('/Food')
